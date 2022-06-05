@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Arial",  sans-serif;
+    font-family: 'Barlow', 'Fraunces', sans-serif;
 }
 
 img{
@@ -15,3 +15,20 @@ h1,h2,h3,h4,h5,h6 p{
     margin: 0;
 }
 
+ul, li, ol {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.button{
+    background: #0E8784;
+    border-radius: 6px;
+}
+
+.button:hover{
+    background-color: #66D2CF;
+    color: #FEFCF7;
+}
