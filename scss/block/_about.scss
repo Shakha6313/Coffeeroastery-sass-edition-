@@ -1,0 +1,207 @@
+.about {
+    background-image: url(./../../img/about_us.png);
+    object-fit: contain;
+    height: 450px;
+    padding-top: 137px;
+    padding-left: 85px;
+    margin-bottom: 168px;
+    
+    &__heading {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 24px;
+    }
+    
+    &__text {
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        width: 445px;
+    }
+}
+
+.commitment {
+    margin-bottom: 244px;
+    
+    &__container {
+        max-width: 1110px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+        display: flex;
+    }
+    
+    &__pic {
+        margin-right: 125px;
+    }
+    
+    &__info {
+    }
+    
+    &__heading {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #333D4B;
+        margin-top: 90px;
+        margin-bottom: 32px;
+    }
+    
+    &__text {
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        width: 540px;
+    }
+}
+
+.quality {
+    background-color: $dark-grey;
+    border-radius: 10px;
+    margin-bottom: 170px;
+    
+    &__info {
+        position: relative;
+        padding-top: 100px;
+        padding-left: 85px;
+    }
+    
+    &__info-heading {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 48px;
+        color: #FEFCF7;
+        margin-bottom: 32px;
+    }
+    
+    &__info-text {
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #FEFCF7;
+        mix-blend-mode: normal;
+        opacity: 0.8;
+        width: 540px;
+        padding-bottom: 176px;
+    }
+    
+    &__right {
+        background-image: url(./../img/quality.png);
+        background-repeat: no-repeat;
+        width: 445px;
+        height: 474px;
+        position: absolute;
+        top: 0;
+        left: 60%;
+        transform: translateX(720px);
+        transform: translateY(-80px);
+    }
+}
+
+.headquarters {
+    margin-bottom: 168px;
+    
+    &__container {
+        max-width: 1085px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px;
+    }
+    
+    &__heading {
+        font-family: 'Fraunces';
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #83888F;
+        margin-bottom: 72px;
+    }
+}
+.location {
+    
+    &__list {
+        display: flex;
+        padding-top: 95px;
+    }
+    
+    &__inner-list {
+    }
+}
+.list {
+    
+    &__item {
+        margin-right: 108px;
+        
+        & > h3{
+            font-family: 'Fraunces';
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            color: #333D4B;
+            margin-bottom: 24px;
+        } 
+    }
+    
+}
+.inner {
+    
+    &__list-itme {
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+    }
+}
+.uk {
+    
+    &__location {
+        &::before{
+            content: url(./../../img/kingdom.svg);
+            position: absolute;
+            width: 51px;
+            height: 49px;
+            object-fit: contain;
+            transform: translateY(-100px);
+        }
+    }
+}
+.canada {
+    
+    &__location {
+        &::before{
+            content: url(./../../img/canada.svg);
+            position: absolute;
+            width: 51px;
+            height: 49px;
+            object-fit: contain;
+            transform: translateY(-100px);
+        }
+    }
+}
+.australia {
+    
+    &__location {
+        &::before{
+            content: url(./../../img/australia.svg);
+            position: absolute;
+            width: 51px;
+            height: 49px;
+            object-fit: contain;
+            transform: translateY(-100px);
+        }
+    }
+}
+
