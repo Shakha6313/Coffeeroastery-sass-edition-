@@ -11,6 +11,19 @@
         margin-bottom: 136px;
     }
     
+    @media
+    only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (   min--moz-device-pixel-ratio: 2),
+    only screen and (     -o-min-device-pixel-ratio: 2/1),
+    only screen and (        min-device-pixel-ratio: 2),
+    only screen and (                min-resolution: 192dpi),
+    only screen and (                min-resolution: 2dppx) { 
+        
+        &__content {
+            background-image: url(./../img/mainpg-img-retina.png);
+        }
+    } 
+    
     &__content-heading {
         font-family: 'Fraunces';
         font-weight: 900;
@@ -293,7 +306,7 @@
     &__item:last-child &__icon-wrapper::before{
         display: none;
     }
-
+    
     &__icon-circle {
         display: inline-block;
         width: 31px;

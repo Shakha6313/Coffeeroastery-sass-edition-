@@ -470,6 +470,12 @@ a {
   margin-bottom: 136px;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .top__content {
+    background-image: url(./../img/mainpg-img-retina.png);
+  }
+}
+
 .top__content-heading {
   font-family: 'Fraunces';
   font-weight: 900;
@@ -900,6 +906,12 @@ a {
   margin-bottom: 168px;
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .about {
+    background-image: url(./../../img/about_us-retina.png);
+  }
+}
+
 .about__heading {
   font-family: 'Fraunces';
   font-weight: 900;
@@ -1002,6 +1014,12 @@ a {
           transform: translateX(720px);
   -webkit-transform: translateY(-80px);
           transform: translateY(-80px);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .quality__right {
+    background-image: url(./../img/qu.png);
+  }
 }
 
 .headquarters {
@@ -1116,6 +1134,12 @@ a {
   height: 450px;
   padding-top: 134px;
   padding-left: 85px;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .plan .create__plan {
+    background-image: url(./../img/plan__coffee.png);
+  }
 }
 
 .plan__step {
