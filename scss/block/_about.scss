@@ -5,7 +5,7 @@
     padding-top: 137px;
     padding-left: 85px;
     margin-bottom: 168px;
-    border-radius: 10px;
+    
     
     @media
     only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -114,6 +114,7 @@
         background-repeat: no-repeat;
         width: 445px;
         height: 474px;
+        border-radius: 10px;
         position: absolute;
         top: 0;
         left: 60%;
