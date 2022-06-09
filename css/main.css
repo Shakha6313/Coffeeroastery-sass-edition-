@@ -904,6 +904,7 @@ a {
   padding-top: 137px;
   padding-left: 85px;
   margin-bottom: 168px;
+  border-radius: 10px;
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
