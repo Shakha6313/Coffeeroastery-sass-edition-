@@ -97,74 +97,403 @@
                 
                 <div class="left__side">
                     
-                    <div class="left__side-info">
+                    <ul class="left__side-list">
                         
-                        <p class="plan__choice-num1">01</p>
-                        
-                        <a class="plan__choice-info" href="#">Preferences</a>
-                        
-                    </div>
-                    
-                    <hr class="horizontal__line">
-                    
-                    <div class="left__side-info">
-                        
-                        <p class="plan__choice-num">02</p>
-                        
-                        <a class="plan__choice-info" href="#">Bean Type</a>
-                        
-                    </div>
-                    
-                    <hr class="horizontal__line">
-                    
-                    <div class="left__side-info">
-                        
-                        <p class="plan__choice-num">03</p>
-                        
-                        <a class="plan__choice-info" href="#">Quantity</a>
-                        
-                    </div>
-                    
-                    <hr class="horizontal__line">
-                    
-                    <div class="left__side-info">
-                        
-                        <p class="plan__choice-num">04</p>
+                        <li class="left__side-item">
+                            
+                            <a class="left__side-list-link" href="#">
+                                
+                                <p class="list__num num__active">01</p>
+                                
+                                <p class="list__text">Preferences</p>
 
-                        <a class="plan__choice-info" href="#">Grind Option</a>
+                            </a>
+                            
+                        </li>
+
+                        <li class="left__side-item">
+                            
+                            <a class="left__side-list-link" href="#">
+                                
+                                <p class="list__num ">02</p>
+                                
+                                <p class="list__text">Bean Type</p>
+
+                            </a>
+                            
+                        </li>
+
+                        <li class="left__side-item">
+                            
+                            <a class="left__side-list-link" href="#">
+                                
+                                <p class="list__num ">03</p>
+                                
+                                <p class="list__text">Quantity</p>
+
+                            </a>
+                            
+                        </li>
+
+                        <li class="left__side-item">
+                            
+                            <a class="left__side-list-link" href="#">
+                                
+                                <p class="list__num ">04</p>
+                                
+                                <p class="list__text">Grind Option</p>
+
+                            </a>
+                            
+                        </li>
+
+                        <li class="left__side-item">
+                            
+                            <a class="left__side-list-link" href="#">
+                                
+                                <p class="list__num ">05</p>
+                                
+                                <p class="list__text">Deliveries</p>
+
+                            </a>
+                            
+                        </li>
                         
-                    </div>
-                    
-                    <hr class="horizontal__line">
-                    
-                    <div class="left__side-info">
-                        
-                        <p class="plan__choice-num5">05</p>
-                        
-                        <a class="plan__choice-info5" href="#">Deliveries</a>
-                        
-                    </div>
-                    
-                    <hr class="horizontal__line">
+                    </ul>
                     
                 </div>
                 
                 <div class="right__side">
-                    
-                    <div class="checkbox">
-                        
-                        <div class="checkbox__info">
-                            
-                            <h2 class="checkbox__heading">How do you drink your coffee?</h2>
 
-                            <img class="up__arrow" src="./img/up_arrow.svg" alt="#">
-                            
-                        </div>
+                    <ul class="plan__r-list">
+
+                        <li class="plan__r-item">
+
+                            <div class="plan__r-top">
+
+                                <h2 class="plan__r-heading">How do you drink your coffee?</h2>
+
+                                <button class="plan__r-btn">
+                                
+                                    <img class="plan__r-img" src="./img/up_arrow.svg" alt="#" width="18"
+                                    height="12">
+                                
+                                </button>
+
+                            </div>
+
+                            <form class="plan__form" action="https://echo.htmlacademy.ru/" method="post">
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Capsule</span>
+                                        
+                                        <span class="plan__span-text">Compatible with Nespresso systems and similar brewers</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Filter</span>
+                                        
+                                        <span class="plan__span-text">For pour over or drip methods like Aeropress, Chemex, and V60</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Espresso</span>
+                                        
+                                        <span class="plan__span-text">Dense and finely ground beans for an intense, flavorful experience</span>
+
+                                    </span>
+
+                                </label>
+                            </form>
+
+                        </li>
+
+                        <li class="plan__r-item">
+
+                            <div class="plan__r-top">
+
+                                <h2 class="plan__r-heading">What type of coffee?</h2>
+
+                                <button class="plan__r-btn">
+                                
+                                    <img class="plan__r-img" src="./img/up_arrow.svg" alt="#" width="18"
+                                    height="12">
+                                
+                                </button>
+
+                            </div>
+
+                            <form class="plan__form" action="https://echo.htmlacademy.ru/" method="post">
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Single Origin</span>
+                                        
+                                        <span class="plan__span-text">Distinct, high quality coffee from a specific family-owned farm</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Decaf</span>
+                                        
+                                        <span class="plan__span-text">Just like regular coffee, except the caffeine has been removed</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Blended</span>
+                                        
+                                        <span class="plan__span-text">Combination of two or three dark roasted beans of organic coffees</span>
+
+                                    </span>
+
+                                </label>
+                            </form>
+
+                        </li>
+
+                        <li class="plan__r-item">
+
+                            <div class="plan__r-top">
+
+                                <h2 class="plan__r-heading">How much would you like?</h2>
+
+                                <button class="plan__r-btn">
+                                
+                                    <img class="plan__r-img" src="./img/up_arrow.svg" alt="#" width="18"
+                                    height="12">
+                                
+                                </button>
+
+                            </div>
+
+                            <form class="plan__form" action="https://echo.htmlacademy.ru/" method="post">
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">250g</span>
+                                        
+                                        <span class="plan__span-text">Perfect for the solo drinker. Yields about 12 delicious cups.</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">500g</span>
+                                        
+                                        <span class="plan__span-text">Perfect option for a couple. Yields about 40 delectable cups.</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">1000g</span>
+                                        
+                                        <span class="plan__span-text">Perfect option for a couple. Yields about 90 delectable cups.</span>
+
+                                    </span>
+
+                                </label>
+                            </form>
+
+                        </li>
+
+                        <li class="plan__r-item">
+
+                            <div class="plan__r-top">
+
+                                <h2 class="plan__r-heading">Want us to grind them?</h2>
+
+                                <button class="plan__r-btn">
+                                
+                                    <img class="plan__r-img" src="./img/up_arrow.svg" alt="#" width="18"
+                                    height="12">
+                                
+                                </button>
+
+                            </div>
+
+                            <form class="plan__form" action="https://echo.htmlacademy.ru/" method="post">
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Wholebean</span>
+                                        
+                                        <span class="plan__span-text">Best choice if you cherish the full sensory experience.</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Filter</span>
+                                        
+                                        <span class="plan__span-text">For drip or pour-over coffee methods such as V60 or Aeropress</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Cafetiére</span>
+                                        
+                                        <span class="plan__span-text">Course ground beans specially suited for french press coffee</span>
+
+                                    </span>
+
+                                </label>
+                            </form>
+
+                        </li>
+
+                        <li class="plan__r-item">
+
+                            <div class="plan__r-top">
+
+                                <h2 class="plan__r-heading">How often should we deliver?</h2>
+
+                                <button class="plan__r-btn">
+                                
+                                    <img class="plan__r-img" src="./img/up_arrow.svg" alt="#" width="18"
+                                    height="12">
+                                
+                                </button>
+
+                            </div>
+
+                            <form class="plan__form" action="https://echo.htmlacademy.ru/" method="post">
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Every week</span>
+                                        
+                                        <span class="plan__span-text">$7.20 per shipment. Includes free first-class shipping.</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Every 2 weeks</span>
+                                        
+                                        <span class="plan__span-text">$9.60 per shipment. Includes free priority shipping.</span>
+
+                                    </span>
+
+                                </label>
+
+                                <label class="plan__label">
+
+                                    <input class="plan__input" type="radio" name="coffee_type" value="Capsule">
+
+                                    <span class="plan__input-span">
+
+                                        <span class="plan__span-heading">Every month</span>
+                                        
+                                        <span class="plan__span-text">$12.00 per shipment. Includes free priority shipping.</span>
+
+                                    </span>
+
+                                </label>
+                            </form>
+
+                        </li>
+
+                    </ul>
+
+                    <div class="order__summary">
+
+                        <p class="order__heading">Order Summary</p>
+
+                        <p class="order__text">“I drink my coffee as <span class="order__color">Filter</span>, with a <span class="order__color">Decaf</span> type of bean.<span class="order__color">250g</span> ground ala <span class="order__color">Cafetiare</span>, sent to me <span class="order__color">Every Week</span>.”</p>
+
+                        <a class="plan__creator-btn button" href="#">Create my plan!</a>
                         
                     </div>
+
                     
+
                 </div>
-                
+
+
             </div>
             
         </section>
